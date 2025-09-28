@@ -153,8 +153,8 @@ const LandingPage = () => {
                 >
                   Get Started
                   <ArrowRight className="ml-2 w-5 h-5" />
-                {/* </button>
-                <button className="border-2 border-teal-600 text-teal-600 hover:bg-teal-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
+                </button>
+                {/* <button className="border-2 border-teal-600 text-teal-600 hover:bg-teal-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
                   Request Demo
                 </button> */}
               </div>
