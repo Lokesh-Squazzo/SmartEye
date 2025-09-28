@@ -81,7 +81,7 @@ const LandingPage = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
                 <Camera className="w-8 h-8 text-teal-600 mr-2" />
-                <span className="text-2xl font-bold text-gray-900">SmartAttend</span>
+                <span className="text-2xl font-bold text-gray-900">SmartEye</span>
               </div>
             </div>
 
@@ -199,7 +199,7 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              How SmartAttend Works
+              How SmartEye Works
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our three-step process ensures accurate, efficient, and secure attendance tracking
@@ -228,7 +228,7 @@ const LandingPage = () => {
               Impact & Benefits
             </h2>
             <p className="text-xl text-gray-600">
-              See the measurable difference SmartAttend makes
+              See the measurable difference SmartEye makes
             </p>
           </div>
 
@@ -285,10 +285,10 @@ const LandingPage = () => {
             <div className="md:col-span-2">
               <div className="flex items-center mb-4">
                 <Camera className="w-8 h-8 text-teal-400 mr-2" />
-                <span className="text-2xl font-bold">SmartAttend</span>
+                <span className="text-2xl font-bold">SmartEye</span>
               </div>
               <p className="text-gray-400 mb-4">
-                Revolutionizing attendance management with AI-powered facial recognition and analytics.
+                Revolutionizing attendance management with facial recognition and analytics.
               </p>
               <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-lg inline-block">
                 <span className="font-semibold">SIH 2025 Project</span>
@@ -298,7 +298,7 @@ const LandingPage = () => {
             <div>
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <div className="space-y-2">
-                <Link to="/privacy" className="block text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
+                {/* <Link to="/privacy" className="block text-gray-400 hover:text-white transition-colors">Privacy Policy</Link> */}
                 <a href="#" className="block text-gray-400 hover:text-white transition-colors">Documentation</a>
                 <a href="#" className="block text-gray-400 hover:text-white transition-colors">Support</a>
                 <a href="#" className="block text-gray-400 hover:text-white transition-colors">API Reference</a>
@@ -308,15 +308,15 @@ const LandingPage = () => {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <div className="space-y-2 text-gray-400">
-                <p>team@smartattend.edu</p>
-                <p>+91 98765 43210</p>
-                <p>Mumbai, Maharashtra</p>
+                <p>team@smarteye.edu</p>
+                <p></p>
+                <p>Shirpur, Maharashtra</p>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 SmartAttend. Built for Smart India Hackathon 2025. All rights reserved.</p>
+            <p>&copy; 2025 SmartEye. Built for Smart India Hackathon 2025. All rights reserved.</p>
           </div>
         </div>
       </footer>
