@@ -190,8 +190,8 @@ const PrivacyPolicy = () => {
                 
                 <div className="space-y-2 text-gray-700">
                   <p><strong>Email:</strong> privacy@smartattend.edu</p>
-                  <p><strong>Phone:</strong> +91 98765 43210</p>
-                  <p><strong>Address:</strong> SmartAttend Privacy Office, Mumbai, Maharashtra 400001</p>
+                  {/* <p><strong>Phone:</strong> +91 98765 43210</p> */}
+                  {/* <p><strong>Address:</strong> SmartAttend Privacy Office, Mumbai, Maharashtra 400001</p> */}
                 </div>
                 
                 <p className="text-sm text-gray-600 mt-4">
